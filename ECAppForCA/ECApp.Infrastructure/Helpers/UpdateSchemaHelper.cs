@@ -1,6 +1,7 @@
 using System.Text;
 using Dapper;
 using ECApp.Domain.Entities;
+using ECApp.Infrastructure.DBContext;
 using ECApp.Infrastructure.Helpers;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;

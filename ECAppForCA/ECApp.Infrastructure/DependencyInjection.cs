@@ -1,4 +1,5 @@
 using ECApp.Application.Interfaces;
+using ECApp.Infrastructure.DBContext;
 using ECApp.Infrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

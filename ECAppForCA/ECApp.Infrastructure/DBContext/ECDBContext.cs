@@ -1,8 +1,8 @@
-using ECApp.Application.Interfaces;
 using ECApp.Domain.Entities;
+using ECApp.Infrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
 
-namespace ECApp.Infrastructure.Helpers;
+namespace ECApp.Infrastructure.DBContext;
 
 public partial class ECDBContext : DbContext, IECDbContext
 {

@@ -16,10 +16,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="DBContext\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\ECApp.Application\ECApp.Application.csproj" />
       <ProjectReference Include="..\ECApp.Domain\ECApp.Domain.csproj" />
     </ItemGroup>
