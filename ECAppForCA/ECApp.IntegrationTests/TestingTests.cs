@@ -1,5 +1,8 @@
+using System;
+using System.Threading.Tasks;
 using ECApp.Domain.Entities;
 using FluentAssertions;
+using NUnit.Framework;
 using static Testing;
 
 namespace ECApp.IntegrationTests;

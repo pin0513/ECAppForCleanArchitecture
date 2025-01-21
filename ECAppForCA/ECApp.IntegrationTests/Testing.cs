@@ -1,5 +1,4 @@
 using MediatR;
-using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -10,7 +9,9 @@ using Dapper;
 using ECApp.Application;
 using ECApp.Application.Interfaces;
 using ECApp.Infrastructure;
+using ECApp.Infrastructure.DBContext;
 using ECApp.Infrastructure.Helpers;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Respawn.Graph;
 
