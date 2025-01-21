@@ -1,0 +1,17 @@
+IF EXISTS (SELECT 1 
+           FROM INFORMATION_SCHEMA.TABLES 
+           WHERE TABLE_SCHEMA = 'dbo' 
+           AND TABLE_NAME = 'Users')
+BEGIN
+DROP TABLE [dbo].[Users];
+END;
+
+CREATE TABLE [dbo].[Users](
+    [Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+    [Name] NVARCHAR(100) NOT NULL,
+    [DeletedTime] DATETIMEOFFSET(7) NULL,
+    [Creator]  NVARCHAR(100) NOT NULL,
+    [CreatedTime] DATETIMEOFFSET(7) NOT NULL,
+    [LatestUpdater]  NVARCHAR(100) NULL,
+    [LatestUpdatedTime] DATETIMEOFFSET(7) NULL
+    ) ON [PRIMARY];
