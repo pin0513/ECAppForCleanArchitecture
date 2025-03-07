@@ -1,3 +1,4 @@
+using ECApp.Application.Common.Interfaces;
 using ECApp.Application.Interfaces;
 using ECApp.Infrastructure.DBContext;
 using ECApp.Infrastructure.Helpers;

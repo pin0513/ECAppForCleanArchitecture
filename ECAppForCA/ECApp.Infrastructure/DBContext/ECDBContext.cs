@@ -1,3 +1,4 @@
+using ECApp.Application.Common.Interfaces;
 using ECApp.Domain.Entities;
 using ECApp.Infrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
